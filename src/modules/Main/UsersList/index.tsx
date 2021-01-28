@@ -16,6 +16,7 @@ export default class Start extends Component {
   render(): ReactElement {
     const users = usersStore.data.data;
     const canLoadMore = users.length < usersStore.data.total;
+    console.log(canLoadMore);
     const loading = usersStore.loading;
     const openFilter = usersStore.openFilter;
     const countPerPage = usersStore.data.per_page;

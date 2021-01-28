@@ -24,7 +24,7 @@ class UsersApi extends BaseApi<UserI> {
   };
   
   async getWithPage(page: number = 1, perPage = 3): Promise<WithPage<UserI>> {
-    return axios.get(`${this.api}`, {
+    return axios.get(`${this.api}?delay=2`, {
       params: {
         page,
         'per_page': perPage
