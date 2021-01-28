@@ -1,0 +1,9 @@
+export {default as LogoIcon} from './logo.icon';
+export {default as PlusIcon} from './plus.icon';
+export {default as LogoIconColored} from './logo-colored.icon';
+export {default as PinIcon} from './pin.icon';
+export {default as SearchIcon} from './search.icon';
+export {default as HomeIcon} from './home.icon';
+export {default as FilterIcon} from './filter.icon';
+export {default as BackIcon} from './back.icon';
+export {default as PhoneIcon} from './phone.icon';
